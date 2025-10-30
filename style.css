@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    background-color: darkgray;
+    padding: 0px 20px;
+}
+body{
+    margin: 0%;
+    background-color: rgb(128, 119, 119);
+}
+#foto{
+
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px ;
+}
+
+.descricao{
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
